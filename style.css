@@ -1,0 +1,127 @@
+@@charset "UTF-8";
+
+body {font-family:'メイリオ',Higino Kaku Gothic Pro,sans-serif,'Font Awesome 5 Free';
+height: 100%; content:'¥51c'; font-weight:900;
+}
+
+
+
+.box1 {
+  height:120px;
+  background-color: #CEEEC8;
+  color: white;
+  width: 100%;
+  position:relative;
+}
+
+.box1-logo {
+  font-size:45px;
+  padding: 20px;
+  color: white;
+  float:left;
+}
+
+.box1 h1 {
+  padding-top:35px;
+  font-size: 25px;
+  color: white;
+}
+
+#show {
+  cursor: ponter;
+}
+.fa-list-ul {
+  position:absolute;
+  bottom:20px;
+  right: 20px;
+}
+
+
+.box1 p {
+  float: left;
+  padding-left: 200px;
+}
+
+.box2 {
+  padding: 0;
+  position: relative;
+}
+
+.box2 img {
+  height: 400px;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.box2 h1  {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  color: white;
+}
+
+
+.box2 h2 {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  color: white;
+}
+
+.box3 {
+  height:500px;
+  background: #fffaf0
+
+}
+
+.activities {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 50px;
+
+}
+
+
+.activity-item {
+    position:relative;
+  }
+
+.activity-item p {
+  color: #a9a9a9;
+  position:absolute;
+  top:45%;
+}
+
+
+
+
+.fa-book-medical{
+  color: #7fffd4;
+
+
+}
+
+
+.fa-user-friends {
+  color: #fff0f5;
+
+.fa-chalkboard-teacher {
+  color: #ffacde;
+}
+
+.text-contents {
+  color: #a9a9a9;
+  font-size:14px;
+  margin-top:13px;
+  width: 75%;
+  display: inline-block;
+}
+
+.footer {
+  background-color:#fffacd;
+  height: 125px;
+
+}
+.footer-li {
+  float: left;
+}
