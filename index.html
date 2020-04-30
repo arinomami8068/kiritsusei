@@ -9,6 +9,16 @@
 
 </head>
 <body>
+  <header>
+    <div id=hum>
+        <ul>
+          <li>Petorichorとは</li>
+          <li>起立性克服後の課題とは</li>
+          <li>患者会について、活動予定</li>
+          <li>過去の活動報告</li>
+        </ul>
+    </div>
+<div id=main>
  <div class="box1">
   <div class="box1-logo">Ｐｅｔｏｒｉｃｈｏｒ</div>
   <h1>～起立性調節障害患者のその後のネットワーク～</h1>
@@ -63,3 +73,19 @@
 </div>
 </body>
 </html>
+
+<script>
+(function() {
+'use strict'
+var show=document.getElementsById('show')
+var main=document.getElementsById('main')
+
+show.addEventListner('click',function() {
+if (main.className==='menu-open'){
+  main.className='';
+}else {
+main.className='main-open';
+}}
+);
+  
+</script>

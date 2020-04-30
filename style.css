@@ -4,6 +4,36 @@ body {font-family:'メイリオ',Higino Kaku Gothic Pro,sans-serif,'Font Awesome
 height: 100%; content:'¥51c'; font-weight:900;
 }
 
+#main {
+  position: absolute;
+  z-index: 1;
+  top:0;
+  left:0;
+  padding:8px;
+  width:180px;
+  overflow:auto;
+  transition: .4s;
+}
+
+#main.menu-open {
+  left: -180px;
+}
+
+.hum {
+  position:absolute;
+  top:0;
+  right:0;
+  color: white;
+  background-color:#7cfc00;
+  box-sizing: border-box;
+  width:100%;
+  height:100%;
+  min-height: 100%;
+}
+#show {
+  cursor: pointer;
+
+}
 
 
 .box1 {
